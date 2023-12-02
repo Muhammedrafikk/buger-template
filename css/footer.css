@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.item-first {
+  width: 180px;
+  height: 40px;
+  background: #000;
+    border: 3px solid #4B4B4B;
+
+}
+
+
+.item-first,.placeholder{
+
+  font-size: 15px;
+  font-weight: 500;
+  
+    
+
+}
+.btn-up  {
+  
+  margin-left: 5px;
+}
+
+
+
+
+.btn-up {
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-weight: 700;
+  background: #FF7A00;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.btn-up:hover {
+  background: #e65100;
+ 
+}
+
+.text-reset{
+  color: #ffffff;
+}
+
+
+.col-md-4.col-lg-3.col-xl-3.mx-auto.mb-md-0.mb-4 {
+  color: white;
+  
+}
+
+.text-uppercase.fw-bold.mb-4,
+.text-uppercase.fw-bold.mb-4 i {
+  color: white;
+  font-family: 'Concert One', cursive;
+}
+
+.text-uppercase h6{
+  color: #e65100;
+}
+
+.red-text {
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+.test-red{
+  color: #FF0000;
+}
+
+.gap-space {
+  display: flex;
+  gap: 19px;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #d6d6d6;
+}
+

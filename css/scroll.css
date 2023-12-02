@@ -1,0 +1,51 @@
+.wrapper {
+    border: 1px solid #ffffff;
+    height: calc(100vh - 2px);
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    width: calc(100vw - 2.55px);
+  }
+  
+  .scroll-top {
+    background: #f06400;
+    border: 0;    
+    bottom: 0;
+    cursor: pointer;
+    height: 50px;
+    margin: 15px;
+    opacity: 0.75;
+    position: fixed;
+    right: -70px;
+    transition: right 0.2s ease-in-out;
+    width: 50px;
+    z-index: 99;
+  }
+  .scroll-top.visible {
+    right: 0;
+  }
+  
+  .arrow {
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 4px;
+  }
+  .arrow.up {  
+    transform: rotate(-135deg);
+  }
+  
+  .content-container {
+    display: flex;
+    height: 300px;
+    width: 100%
+  }
+  
+  .content {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+  }

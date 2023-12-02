@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+/* card */
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 1px #B6B6B6;
+}
+
+.card-body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card img{
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-weight: 500;
+    padding-top: 30px;
+
+
+}
+.card i{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.card-icon {
+    text-align: center;
+    gap: 100px;
+    padding: 100px 10px;
+    cursor: pointer;
+}
+
+.card-title2 i ,.h5{
+    text-align: center;
+    gap: 100px;
+}
+
+.card-text{
+    text-align: center;
+    padding: 3px 40px;
+    font-weight: 500;
+
+}
+
+/* profile uvais */
+
+.profile img{
+    position: absolute;
+    bottom: 330px;
+    left: 125px;
+    width: 90px;
+    height: 95px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    cursor: pointer;
+
+
+    
+}
+
+.profile2 img{
+    position: absolute;
+    bottom: 330px;
+    left: 125px;
+    width: 90px;
+    height: 95px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    cursor: pointer;
+    
+}
+
+/* new */
+
+.btn-read{
+    width: 100px;
+    border-radius: 15px;
+   width: 150px;
+   background: #D9D9D9;
+   border: none;
+   color: #000;
+   
+    
+}
+
+
+/* responsive */
+
+@media (min-width:375px) and (max-width:767px)  {
+
+    .card img{
+        height: 320px;
+    }
+    
+}
+
+/* uvais profile card */
+
+@media (max-width:1201px) {
+    .profile img{
+        bottom: 3px;
+    }
+}
+
+
+@media (max-width:1200.5px) {
+
+    .profile img{
+        bottom: 330px;
+        left: 130px;
+        width: 90px;
+        height: 95px;
+        border-radius: 50%;  
+       
+    }
+    .profile2 img{
+
+        bottom: 330px;
+        left: 130px;
+ 
+    }
+
+}
+
+@media (max-width:1199.5px) {
+    .profile img{
+        bottom: 380px;
+        left: 100px;
+    }
+    .profile2 img{
+
+        bottom: 380px;
+        left: 100px;
+ 
+    }
+
+}
+
+@media (max-width:991.5px) {
+
+    .profile img{
+        bottom: 360px;
+        left: 120px;
+    }
+    .profile2 img{
+        bottom: 330px;
+        left: 120px;
+ 
+    }
+
+}
+@media (max-width:767.5px) {
+
+    .profile img{
+        bottom: 290px;
+        left: 210px;
+    }
+    .profile2 img{
+        width: 90px; 
+        height: 95px;
+        border-radius: 50%;  
+
+        bottom: 290px;
+        left: 210px;
+ 
+    }
+
+}
+
+@media (max-width:506.5px) {
+
+    .profile img{
+        bottom: 290px;
+        left: 200px;
+    }
+    .profile2 img{
+
+        bottom: 290px;
+        left: 200px;
+ 
+    }
+
+}
+
+@media (max-width:490px) {
+
+    .profile img{
+        left: 180px;
+    }
+    .profile2 img{
+        left: 180px;
+ 
+    }
+}
+
+@media (max-width:445px) {
+
+    .profile img{
+        left: 160px;
+    }
+    .profile2 img{
+        left: 160px;
+ 
+    }
+
+}
+
+@media  (max-width:432.5px) {
+
+    .profile img{
+        bottom: 310px;
+        left: 150px;
+    }
+    .profile2 img{
+        bottom: 310px;
+        left: 150px;
+ 
+    }
+}
+
+@media  (max-width:431.5px) {
+
+    .profile img{
+        left: 150px;
+    }
+    .profile2 img{      
+        left: 150px;
+ 
+    }
+}
+@media  (max-width:416.5px) {
+
+    .profile img{
+        bottom: 330px;
+        left: 150px;
+    }
+    .profile2 img{
+        bottom: 330px;
+        left: 150px;
+ 
+    }
+}
+@media  (max-width:395.5px) {
+
+    .profile img{
+        left: 130px;
+    }
+    .profile2 img{
+        left: 130px;
+ 
+    }
+}
+
+@media  (max-width:366.5px) {
+
+    .profile img{
+        bottom: 350px;
+        left: 120px;
+    }
+    .profile2 img{
+        left: 120px;
+ 
+    }
+}
+
+@media (max-width:351.5px) {
+    .profile img{
+        bottom: 350px;
+        left: 110px;
+    }
+    .profile2 img{
+        bottom: 370px;
+        left: 110px;
+ 
+    }
+
+}
+
+@media (min-width:320px) and (max-width:332px) {
+
+    .profile img{
+        bottom: 380px;
+        left: 100px;
+    }
+    .profile2 img{
+        bottom: 380px;
+        left: 100px;
+ 
+    }
+}
+
